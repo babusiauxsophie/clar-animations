@@ -1,0 +1,13 @@
+.loader {
+    position: absolute;
+    width: 100%;
+    min-height: 100svh;
+    min-height: 100vh;
+    background-color: var(--primary);
+    z-index: 1000;
+    color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--title-size);
+}

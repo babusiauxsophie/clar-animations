@@ -1,0 +1,24 @@
+:root {
+    --light: hsl(43, 33%, 96%);
+    --dark: hsl(0, 0%, 11%);
+    --primary: #082b9d;
+    --secondary: #0d4135;
+    --tertiary: #a2543d;
+    --quaternary: #f4b63e;
+    --font-secondary:#8acdb8;
+    --font-tertiary: #f7d1ba;
+    --mouse-secondary: #975e1a;
+    --mouse-tertiary: #d37e55;
+    --mouse-quaternary: #43503f;
+    --title-font: "CanelaRegular";
+    --title-font-italic: "CanelaLightItalic";
+    --title-font-light: "CanelaLight";
+    --text-font: "AkzidenzGrotesk";
+    --title-size: 7rem;
+    --quote-size: 1.8rem;
+    --text-size: 1.5rem;
+    --list-size: 1rem;
+    --spacing: 1.5rem;
+    --spacing-small: 0.5rem;
+    --spacing-large: 20rem;
+}

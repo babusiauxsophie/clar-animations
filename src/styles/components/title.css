@@ -1,0 +1,34 @@
+.title {
+    font-family: var(--title-font-light);
+    font-size: var(--title-size);
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    text-transform: uppercase;
+    align-items: flex-start;
+}
+
+.title span:nth-child(even) {
+    align-self: flex-end;
+    font-family: var(--title-font-italic);
+}
+
+.title-box {
+    margin-top: 0;
+    padding-left: calc(6 * var(--spacing));
+    padding-right: calc(6 * var(--spacing));
+    padding-top: calc(2 * var(--spacing));
+    padding-bottom: calc(2 * var(--spacing));
+    align-items: flex-start;
+
+    & strong {
+        font-family: var(--text-font);
+        font-size: var(--list-size);
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+
+.title--team {
+    margin-top: 1rem;
+}

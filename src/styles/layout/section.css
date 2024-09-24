@@ -1,0 +1,84 @@
+.hero {
+    color: var(--primary);
+    font-family: "CanelaRegular";
+    position: relative;
+    padding: calc(2 * var(--spacing));
+    background-color: var(--light);
+    display: grid;
+    grid-template-columns: 200px 1fr;
+
+    & .hero__nav {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        
+        & .logo {
+            font-size: var(--quote-size);
+            display: flex;
+            text-decoration: none;
+            gap: var(--spacing-small);
+            color: var(--primary);
+            & .logo__small {
+                font-family: var(--text-font);
+                font-size: var(--list-size);
+                text-transform: uppercase;
+                padding-top: var(--spacing);
+            }
+            & .logo__large {
+                font-size: 4rem;
+                font-family: var(--title-font-light);
+                text-transform: lowercase;
+            }
+        }
+    }
+    & hr {
+        color: var(--primary);
+    }
+    
+}
+
+.sticky {
+    font-size: 10rem;
+    text-transform: uppercase;
+    font-family: var(--title-font-light);
+    transform: scale(-1);
+    writing-mode: vertical-rl;
+
+}
+
+.section--info {
+    background-color: var(--primary);
+    color: var(--light);
+    padding: calc(2 * var(--spacing));
+    display: flex;
+    flex-direction: column;
+    padding-right: calc(6 * var(--spacing));
+    padding-left: calc(6 * var(--spacing));
+    & hr {
+        color: var(--light);
+    }
+    
+}
+
+.section--vision {
+    background-color: var(--secondary);
+    color: var(--font-secondary);
+    padding-left: calc(2 * var(--spacing));
+    padding-right: calc(2 * var(--spacing));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & hr {
+        color: var(--font-secondary);
+    }
+}
+
+.section--team {
+    background-color: var(--tertiary);
+    color: var(--font-tertiary);
+
+    & hr {
+        color: var(--font-tertiary);
+    }
+}

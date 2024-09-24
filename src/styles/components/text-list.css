@@ -1,0 +1,20 @@
+.text__list {
+    width: 100%;
+
+    & li {
+        min-width: 35rem;
+        padding-left: var(--spacing);
+        line-height: 1.5rem;
+    }
+
+    & li::marker {
+        content: "*";
+        color: var(--bullet-color, var(--light));
+        font-size: 2rem;
+    }
+}
+
+.longer {
+    min-width: 30rem;
+    color: var(--light);
+}

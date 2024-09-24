@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    margin-top: calc(var(--spacing-large) / 2);
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+    text-transform: uppercase;
+    gap: 10rem;
+    justify-content: space-between;
+    width: fit-content;
+    margin-left: 15rem;
+    
+    & .list__item {
+        width: 18rem;
+        text-wrap: wrap;
+
+        & .item__bold {
+            margin-top: calc(3 * var(--spacing));
+            font-weight: bold;
+        }
+    }
+}
+
+.list-container {
+    white-space: nowrap;
+    margin-left: 10rem;
+    overflow: hidden;
+}

@@ -1,0 +1,24 @@
+.mouse {
+    width: var(--spacing);
+    height: var(--spacing);
+    background-color: var(--primary);
+    position: absolute;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.in-section--info {
+    background-color: var(--mouse-secondary);
+}
+
+.in-section--vision {
+    background-color: var(--mouse-tertiary);
+}
+
+.in-section--team {
+    background-color: var(--mouse-quaternary);
+}
+
+.in-footer {
+    background-color: var(--dark);
+}

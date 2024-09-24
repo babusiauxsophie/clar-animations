@@ -1,0 +1,22 @@
+.contact {
+    background-color: var(--primary);
+    width: calc(5* var(--text-size));
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: calc(3* var(--spacing));
+    color: var(--light);
+    font-family: var(--text-font);
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: width .5s ease, font-size .5s ease, transform .5s ease;
+}
+
+.contact:hover {
+    width: calc(4* var(--text-size));
+    font-size: 0.8rem;
+    transform: rotate(5deg);
+}

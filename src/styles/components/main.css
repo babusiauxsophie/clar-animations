@@ -1,0 +1,5 @@
+main {
+    z-index: 1;
+    position: relative;
+    margin-bottom: 100svh; /* met padding werkt het niet */
+}

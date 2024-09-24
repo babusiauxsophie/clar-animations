@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "AkzidenzGrotesk";
+    src: url("../../fonts/subset-AkzidenzGroteskBQ-Reg.29047bd5.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: "CanelaRegular";
+    src: url("../../fonts/subset-Canela-Regular.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: "CanelaLight";
+    src: url("../../fonts/subset-Canela-Light.8ce6ec1c.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: "CanelaLightItalic";
+    src: url("../../fonts/subset-Canela-LightItalic.ee25cf68.woff2") format("truetype");
+}

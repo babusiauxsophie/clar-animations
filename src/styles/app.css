@@ -1,0 +1,15 @@
+@import url("./reset/reset.css");
+@import url("./variables/root.css");
+@import url("./fonts/fonts.css");
+@import url("./layout/spacing-box.css");
+@import url("./layout/footer.css");
+@import url("./layout/section.css");
+@import url("./components/title.css");
+@import url("./components/content-block.css");
+@import url("./components/list.css");
+@import url("./components/text-list.css");
+@import url("./components/circles.css");
+@import url("./components/mouse.css");
+@import url("./components/contact.css");
+@import url("./components/main.css");
+@import url("./layout/loader.css");
